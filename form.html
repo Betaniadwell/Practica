@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <link rel="stylesheet" href="form.css">
+    <script src="apren.js"></script>
+</head>
+
+<body>
+        <nav class="f">
+          <a href="home.html">Home</a>
+          <a href="home.html">Login</a><!--sin terminar-->
+        </nav>
+
+         <form method="get" action="">
+            <fieldset>
+                <legend>Datos del Paciente</legend>
+               
+                    
+                <label for="Nombre">Nombre</label> 
+                <input id="Nombre" name="Datos" type="text" placeholder="Nombre" maxlength="10" required>
+            
+                <label for="Apellido">Apellido</label> 
+                <input id="Apellido" name="Datos" type="text" placeholder="Apellido" maxlength="10" required>
+            
+                <label for="Edad">Edad</label>
+                <input id="Edad" name="Datos" type="text" placeholder="Edad" maxlength="2" required>
+                
+               
+            </fieldset>
+           
+            
+            <fieldset>
+                <legend>Historial</legend>
+            
+                <label for="Diabetes" > Diabetes</label>
+                <input id="Diabetes" name="Patologia" value="Diabetes"  type="radio">
+            
+                <label for="Tensiones">Tensiones</label>
+                <input id="Tensiones" name="Patologia" value="Tensiones" type="radio">
+            
+                <label for="Cardiopatia">Cardiopatia</label>
+                <input id="Cardiopatia" name="Patologia" value="Cardiopatia" type="radio">
+            
+            
+            </fieldset>
+            <fieldset>
+                <legend>Evaluacion</legend> 
+            
+                <label for="Presion Alta">Presion Alta</label>
+                <input id="Presion Alta" name="Evaluacion" value="Presion Alta" type="checkbox">
+            
+                <label for="Presion Baja">Presion Baja</label>
+                <input id="Presion Baja name="Evaluacion" value="Presion Baja" type="checkbox">
+            
+            </fieldset>
+
+            <fieldset>
+            <legend>Comentarios</legend>
+
+            <label for="Estado">Estado</label>
+            <textarea id="Estado" name="Estado" cols="30" rows="20" ></textarea>
+
+            </fieldset>
+            
+            <fieldset>
+                <legend>Resultados</legend>
+            
+                <label for="Diagnostico">Diagnostico</label>
+                <select id="Diagnostico" name="Diagnostico">
+                    <option value="Grave" >Grave</option>
+                    <option value="Medio" >Medio</option>
+                    <option value="Salud" >Salud</option>
+                </select>
+            
+            </fieldset>
+
+            <fieldset style="text-align: right;"> 
+            
+                <input type ="reset" value="clear"><br><br>
+                <input type="submit" value="confirmar envio">
+                
+           </fieldset> 
+
+         </form>
+        
+</body>
+</html>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
